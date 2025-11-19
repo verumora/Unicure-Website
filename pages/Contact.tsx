@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, ExternalLink } from 'lucide-react';
 import { COMPANY_DETAILS } from '../constants';
 
 const Contact: React.FC = () => {
@@ -46,24 +46,29 @@ const Contact: React.FC = () => {
                  </div>
              </div>
              
-             {/* Map Button/Link */}
-             <a 
-                href={COMPANY_DETAILS.mapLink} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="block w-full h-64 bg-slate-200 dark:bg-slate-800 rounded-2xl overflow-hidden relative group"
-             >
-                 <img 
-                    src="https://picsum.photos/800/400?random=99" 
-                    alt="Map Placeholder" 
-                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 opacity-70 group-hover:opacity-100 transition-all duration-500" 
-                 />
-                 <div className="absolute inset-0 flex items-center justify-center bg-slate-900/20 group-hover:bg-slate-900/40 transition-colors">
-                    <div className="bg-white dark:bg-slate-900 px-6 py-3 rounded-lg shadow-lg font-semibold text-slate-900 dark:text-white flex items-center border border-slate-200 dark:border-slate-700">
-                        <MapPin className="w-4 h-4 mr-2 text-medical-600 dark:text-medical-400" /> View on Google Maps
-                    </div>
-                 </div>
-             </a>
+             {/* Map Embed */}
+             <div className="relative w-full h-80 bg-slate-200 dark:bg-slate-800 rounded-2xl overflow-hidden shadow-sm border border-slate-100 dark:border-slate-800 group">
+                <iframe 
+                  src="https://maps.google.com/maps?q=Unicure+India+Pvt+Ltd%2C+C-22%2623%2C+Block+C%2C+Noida+Sector+3&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  width="100%" 
+                  height="100%" 
+                  style={{ border: 0 }} 
+                  allowFullScreen={true} 
+                  loading="lazy" 
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Unicure India Pvt Ltd Location"
+                  className="w-full h-full grayscale hover:grayscale-0 transition-all duration-500"
+                ></iframe>
+                <a 
+                  href={COMPANY_DETAILS.mapLink} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="absolute bottom-4 right-4 bg-white dark:bg-slate-900 text-slate-900 dark:text-white px-4 py-2 rounded-lg text-sm font-medium shadow-md hover:bg-medical-50 dark:hover:bg-slate-800 transition-colors flex items-center gap-2 opacity-90 hover:opacity-100"
+                >
+                  <ExternalLink className="w-4 h-4" />
+                  Open in Maps
+                </a>
+             </div>
           </div>
 
           {/* Form Side */}
