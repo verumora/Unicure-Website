@@ -49,14 +49,14 @@ const Contact: React.FC = () => {
              {/* Map Embed */}
              <div className="relative w-full h-80 bg-slate-200 dark:bg-slate-800 rounded-2xl overflow-hidden shadow-sm border border-slate-100 dark:border-slate-800 group">
                 <iframe 
-                  src="https://maps.google.com/maps?q=Unicure+India+Pvt+Ltd%2C+C-22%2623%2C+Block+C%2C+Noida+Sector+3&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.5620644623214!2d77.22693477533481!3d28.61291197567541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2daa9eb4d0b%3A0x717971125923e5d!2sIndia%20Gate!5e0!3m2!1sen!2sin!4v1764790239698!5m2!1sen!2sin"
                   width="100%" 
                   height="100%" 
                   style={{ border: 0 }} 
                   allowFullScreen={true} 
                   loading="lazy" 
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Unicure India Pvt Ltd Location"
+                  title="Pharmaceutical India Pvt Ltd Location"
                   className="w-full h-full grayscale hover:grayscale-0 transition-all duration-500"
                 ></iframe>
                 <a 
