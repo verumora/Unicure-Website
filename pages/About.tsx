@@ -10,7 +10,7 @@ const About: React.FC = () => {
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-6">Dedicated to Life, <br /><span className="text-medical-600 dark:text-medical-400">Driven by Science.</span></h1>
           <p className="text-xl text-slate-600 dark:text-slate-400 leading-relaxed">
-            M/S Unicure India Pvt Ltd is a premier pharmaceutical company based in Noida, dedicated to providing high-quality and affordable medicines to improve global health standards.
+            Pharmaceutical India Pvt Ltd is a premier pharmaceutical company based in Noida, dedicated to providing high-quality and affordable medicines to improve global health standards.
           </p>
         </div>
       </section>
@@ -23,10 +23,10 @@ const About: React.FC = () => {
               <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6">Our Legacy</h2>
               <div className="prose prose-slate dark:prose-invert text-slate-600 dark:text-slate-300">
                 <p className="mb-4">
-                  Established with a vision to bridge the gap between advanced medical science and patient accessibility, Unicure India has grown into a trusted name in the pharmaceutical landscape.
+                  Established with a vision to bridge the gap between advanced medical science and patient accessibility, Pharmaceutical India has grown into a trusted name in the pharmaceutical landscape.
                 </p>
                 <p className="mb-4">
-                  Located in the industrial hub of Noida Sector 3, our facility is designed to meet evolving market demands. We pride ourselves on an organizational culture that values team coordination, staff welfare, and ethical business practices, as echoed by industry veterans and medical professionals alike.
+                  Located in the industrial hub of Noida, our facility is designed to meet evolving market demands. We pride ourselves on an organizational culture that values team coordination, staff welfare, and ethical business practices, as echoed by industry veterans and medical professionals alike.
                 </p>
                 <p>
                   We specialize in a diverse portfolio of formulations, ensuring that we cater to a wide spectrum of therapeutic areas.
@@ -70,7 +70,7 @@ const About: React.FC = () => {
                 <div className="relative z-10 max-w-2xl">
                     <h2 className="text-3xl font-bold mb-6">Leadership & Vision</h2>
                     <p className="text-slate-300 text-lg mb-8">
-                        "M/s Unicure India Pvt Ltd is a very good company... Dr (Maj General) Venkat Raman, famous Neuro physician has high regard for the staff and the management."
+                        "Pharmaceutical India Pvt Ltd is a very good company... Dr Raman, famous Neuro physician has high regard for the staff and the management."
                     </p>
                     <div className="flex items-center">
                         <div className="w-12 h-1 bg-medical-500 rounded mr-4"></div>
