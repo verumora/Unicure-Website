@@ -26,7 +26,7 @@ const Quality: React.FC = () => {
                     </p>
                     <div className="flex gap-4">
                         <div className="px-4 py-2 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded text-sm font-medium">GMP Certified</div>
-                        <div className="px-4 py-2 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded text-sm font-medium">ISO 9001:2015</div>
+                        <div className="px-4 py-2 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded text-sm font-medium">ISO 9001:2029</div>
                     </div>
                 </div>
                 <div className="bg-slate-100 dark:bg-slate-800 h-64 md:h-auto relative">
