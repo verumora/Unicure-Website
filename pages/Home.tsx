@@ -27,7 +27,7 @@ const Home: React.FC = () => {
               Innovating for a <span className="text-medical-600 dark:text-medical-400">Healthier</span> Tomorrow
             </h1>
             <p className="text-lg text-slate-700 dark:text-slate-300 mb-10 leading-relaxed max-w-2xl font-medium transition-colors">
-              M/S Unicure India Pvt Ltd is committed to manufacturing high-quality, affordable medicines. We combine scientific expertise with a dedication to patient care.
+              Pharmaceutical India Pvt Ltd is committed to manufacturing high-quality, affordable medicines. We combine scientific expertise with a dedication to patient care.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <Link to="/products" className="inline-flex justify-center items-center px-8 py-4 bg-medical-600 dark:bg-medical-500 text-white rounded-lg font-semibold hover:bg-medical-700 dark:hover:bg-medical-600 transition-all shadow-lg shadow-medical-200 dark:shadow-none">
@@ -119,7 +119,7 @@ const Home: React.FC = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">Trusted by Professionals</h2>
-            <p className="text-slate-600 dark:text-slate-400">What our partners and employees say about Unicure India.</p>
+            <p className="text-slate-600 dark:text-slate-400">What our partners and employees say about Pharmaceutical India.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -158,7 +158,7 @@ const Home: React.FC = () => {
       {/* CTA */}
       <section className="py-20 bg-white dark:bg-slate-950 transition-colors duration-300">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-6">Partner with Unicure</h2>
+          <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-6">Partner with Pharmaceutical</h2>
           <p className="text-slate-600 dark:text-slate-400 mb-10 max-w-2xl mx-auto">Whether you are looking for contract manufacturing, distribution opportunities, or institutional supplies, we are ready to serve.</p>
           <Link to="/contact" className="inline-block px-10 py-4 bg-slate-900 dark:bg-slate-800 text-white rounded-full font-semibold hover:bg-slate-800 dark:hover:bg-slate-700 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1 border border-slate-800 dark:border-slate-600">
             Contact Us Today
