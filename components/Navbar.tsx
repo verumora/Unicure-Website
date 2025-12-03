@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
             <span className="flex items-center"><Phone className="w-3 h-3 mr-2" /> {COMPANY_DETAILS.phone}</span>
           </div>
           <div className="flex items-center space-x-4">
-             <span>ISO 9001:2015 Certified</span>
+             <span>ISO 9001:2029 Certified</span>
              <span>GMP Compliance</span>
           </div>
         </div>
@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
               U
             </div>
             <div className="flex flex-col">
-              <span className="text-2xl font-bold text-slate-800 dark:text-white leading-tight tracking-tight transition-colors">UNICURE</span>
+              <span className="text-2xl font-bold text-slate-800 dark:text-white leading-tight tracking-tight transition-colors">PHARMACEUTICAL</span>
               <span className="text-xs text-medical-600 dark:text-medical-400 font-medium tracking-widest uppercase transition-colors">India Pvt Ltd</span>
             </div>
           </Link>
