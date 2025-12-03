@@ -64,7 +64,7 @@ const Home: React.FC = () => {
       <section className="py-24 bg-white dark:bg-slate-950 transition-colors duration-300">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">Why Choose Unicure?</h2>
+            <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">Why Choose Pharmaceutical?</h2>
             <p className="text-slate-600 dark:text-slate-400">We adhere to the highest standards of quality, safety, and efficacy in all our pharmaceutical formulations.</p>
           </div>
           
