@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
               <div className="w-8 h-8 bg-medical-500 rounded-md flex items-center justify-center text-white font-bold text-lg mr-2">
                 U
               </div>
-              <span className="text-xl font-bold text-white">UNICURE</span>
+              <span className="text-xl font-bold text-white">PHARMACEUTICAL</span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
               Dedicated to improving health and well-being through innovation, quality manufacturing, and a commitment to excellence in pharmaceuticals.
