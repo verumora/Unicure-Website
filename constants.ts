@@ -2,11 +2,11 @@ import { FlaskConical, ShieldCheck, Globe2, Leaf, Users, Stethoscope } from 'luc
 import { NavItem, Review, Feature, Product, Stat } from './types';
 
 export const COMPANY_DETAILS = {
-  name: "M/S Unicure India Pvt Ltd",
-  address: "C-22&23, Block C, Noida Sector 3, Noida, Uttar Pradesh 201301",
-  phone: "0120 478 6706",
-  mapLink: "https://maps.app.goo.gl/AAzKAAq81YhkNy3D8",
-  email: "info@unicureindia.com", // Placeholder based on domain pattern
+  name: "Pharmaceutical India Pvt Ltd",
+  address: "Kartavya Path, India Gate, New Delhi, Delhi 110001",
+  phone: "+91 9876543210",
+  mapLink: "https://maps.app.goo.gl/vjsHyjWAWt2EEhdX9",
+  email: "info@pharmaceuticalindia.com", // Placeholder based on domain pattern
   hours: "09:30 AM - 05:30 PM"
 };
 
@@ -23,14 +23,14 @@ export const REVIEWS: Review[] = [
   {
     author: "Gp Capt Prem Vir Singh",
     role: "Client / Partner",
-    content: "M/s Unicure India Pvt Ltd is a very good company and an excellent organisation. Dr (Maj General) Venkat Raman, famous Neuro physician has high regard for the staff and the management.",
+    content: "Pharmaceutical India Pvt Ltd is a very good company and an excellent organisation. Dr Raman, famous Neuro physician has high regard for the staff and the management.",
     rating: 5,
     date: "6 years ago"
   },
   {
     author: "Chandan Vishwakarma",
     role: "Employee / Staff",
-    content: "Unicure India Ltd is one of the best pharmaceutical companies. Here is very good team work and good coordination among all staff.",
+    content: "Pharmaceutical India Ltd is one of the best pharmaceutical companies. Here is very good team work and good coordination among all staff.",
     rating: 5,
     date: "1 year ago"
   },
